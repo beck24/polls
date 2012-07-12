@@ -52,7 +52,7 @@ function polls_init() {
 	//add widgets
 	elgg_register_widget_type('poll',elgg_echo('polls:my_widget_title'),elgg_echo('polls:my_widget_description'));
 	elgg_register_widget_type('latestPolls',elgg_echo('polls:latest_widget_title'),elgg_echo('polls:latest_widget_description'));
-	elgg_register_widget_type('poll_individual',elgg_echo('polls:individual'),elgg_echo('poll_individual_group:widget:description'));	
+	elgg_register_widget_type('poll_individual',elgg_echo('polls:individual'),elgg_echo('poll_individual_group:widget:description'), 'all,groups');	
 	
 	// Register actions
 	$action_path = elgg_get_plugins_path() . 'polls/actions/polls';

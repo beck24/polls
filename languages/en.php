@@ -67,7 +67,7 @@
 			'polls:my_widget_description' => "This widget will display your polls.",
 			'polls:widget:label:displaynum' => "How many polls you want to display?",
 			'polls:individual' => "Latest poll",
-			'poll_individual_group:widget:description' => "Display the latest poll for this group.",
+			'poll_individual_group:widget:description' => "Display the latest poll.",
 			'poll_individual:widget:description' => "Display your latest poll",
 			'polls:widget:no_polls' => "There are no polls for %s yet.",
 			'polls:widget:nonefound' => "No polls found.",
